@@ -1,0 +1,251 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 80px;
+  height: 40px;
+}
+body {
+  background-color: #ff785a;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 80px;
+  background-color: #191919;
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-item {
+  position: relative;
+  background-color: #f4515a;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: white;
+  transition: width 0.3s ease;
+}
+
+.nav-item:hover {
+  background-color: royalblue;
+  transition: background-color 0.9s ease;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.section_1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  gap: 20px;
+  align-items: center;
+}
+.image {
+  width: 50%;
+  border-radius: 20px;
+}
+.text {
+  font-size: 24px;
+  background-color: lightblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.section_2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.section_3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  gap: 20px;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+.timer {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 32px;
+}
+
+.timer-text {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 32px;
+}
+
+.section_4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.content {
+  padding: 10px;
+  background-image: linear-gradient(orange, blu);
+  text-align: center;
+}
+.photo {
+  width: 200px;
+}
+.sub-text {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #191919;
+}
+
+.menu {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  background-color: white;
+  top: 0;
+  left: 0;
+  color: black;
+  display: none;
+}
+.active {
+  display: block;
+}
+
+.burger {
+  position: absolute;
+  top: 15;
+  right: 15px;
+  z-index: 100;
+}
+.menu-nav {
+  color: black;
+  gap: 16px;
+  margin: 0 auto;
+}
+.nav-menu a {
+  color: black;
+}
+.ibm-plex-serif-thin {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-serif-extralight {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-serif-light {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-serif-regular {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-serif-medium {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-serif-semibold {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-serif-bold {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-serif-thin-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-serif-extralight-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-serif-light-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-serif-regular-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-serif-medium-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-serif-semibold-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-serif-bold-italic {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.sonic {
+  width: 638px;
+}
